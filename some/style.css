@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_first{
+    width: 50%;
+    height: 120px;
+    margin: 2% 25%;
+    color:  #0088A2;
+    font-family: Josefin Sans;
+    display: flex;
+    margin-left: 450px;
+}
+.image{
+    width: 120px;
+    height: 120px;
+}
+.header_first h1{
+    align-self: center;
+    margin-left: 60px;
+}
+.header_second{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    background-color: #808080;
+    color: white;
+}
+.li{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.li:hover{
+    width: 20%;
+    height: 40px;
+    background-color: #0088A2;
+    color: white;
+}
+.container{
+    display: flex;
+    width:90%;
+    height: 200px;
+    margin: 3% 5%;
+    justify-content: space-between;
+}
+.div_global{
+    display: flex;
+    width: 90%;
+    margin: 50px 5%;
+    justify-content: space-between;
+}
+.div_image{  
+    width: 30%;
+    height: 250px;
+    background-image: url(./rawpixel-196464-unsplash.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.div_image p{
+    
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.h1{
+    font-size: 65px;
+    color: #0088A2;
+    font-family: Josefin Sans;
+    margin-left: 36%;
+    margin-top: 13%;
+}
+.background{
+    background: url(./О\ приложении.png);
+    margin: 50px 5%;
+    background-size:cover;
+    width: 90%;
+    height: 650px;
+    border-radius: 15px;
+    
+}
+
+.play{
+  padding: 260px 45%; 
+}
+.ss_image{
+    margin-left: 225px;
+    margin-top: 140px;
+   position: relative;
+}
+#c1{
+    position: absolute;
+    z-index: index 0; ;
+}
+#c2{
+    position: absolute;
+    left: 195px;
+    top: 38px;
+}
+#c3{
+    position: absolute;
+    left: 415px;
+}
+#c4{
+    position: absolute;
+    left: 596px;
+    top: 30px;
+}
+#c5{
+    position: absolute;
+    left: 790px;
+}
+.end{
+    margin-top: 800px;
+}
+#p_end{
+    margin-left: 40%;
+    font-size: 65px;
+    color: #0088A2;
+}
+#i_end{
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+}
+#s_end{
+    margin-left: 638px;
+    font-size: 65px;
+    color: #0088A2;
+    margin-top: 60px;
+}
+.android{
+    margin-left: 290px;
+}
+.icon{
+    margin-left: 340px;
+}
+#small{
+    color:#707070;
+    text-align: center;
+    font-size: 20px;
+}
+.smalls{
+    margin-top: 70px;
+}
+.ss_end{
+    background: url(./Rectangle\ 12.1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 70px;
+}
+#t_some{
+    color: white;
+    font-size: 65px;
+    margin-left: 650px;
+    padding: 50px 15px;
+}
+.icons{
+    display: flex;
+    padding: 0px 550px;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.t_end{
+   display: flex;
+   color: white;
+   font-size: 25px;
+   justify-content: space-between;
+   text-align: center;
+   padding: 0px 120px;
+   padding-right: 190px;
+}
+.start{color: white;
+font-size: 50px;
+display: flex;
+justify-content: space-between;
+padding: 50px 120px;
+margin-right: 20px;
+margin-left: 30px;
+text-align: center;
+}
+.finish{
+    margin-right: 5px;
+}
+.burger-menu input{
+    opacity: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+}
+li{
+    width: 20%;
+    align-self: center;
+}
+li:hover{
+    background-color: turquoise;
+    width: 20%;
+    height: 35px;
+    padding-top: 5px;
+}

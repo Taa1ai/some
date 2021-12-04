@@ -1,0 +1,11 @@
+@media(max-width: 380px){
+    .slogan{
+        display: block;
+        width: 100%;
+    }
+    .title{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+}
